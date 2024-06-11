@@ -26,11 +26,7 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-
 ```
-
-
-
 
 2. Rスクリプトをエディタで開きます。例えば、RStudioなどの統合開発環境（IDE）を使用することが一般的です。
 
@@ -65,8 +61,10 @@ Rscript app.R
 以上で、Rのインストールと実行環境が立ち上がり、Shinyアプリケーションが実行される準備が整いました。何か追加の質問や説明が必要であれば、遠慮なくお知らせください。
 
 ---
+
 # Rのframe shinyをinstallして、pj名myappとして、準備しているajax.htmlをルーティング
-あとで、ajax.htmlの内容を示し、backend設定のご相談をします
+
+あとで、ajax.htmlの内容を示し、backend設定
 
 RのShinyフレームワークを使用して、名前が「myapp」のプロジェクトでajax.htmlをルーティングする方法についての指示がありますね。Shinyアプリケーションで外部のHTMLファイルを表示するには、`includeHTML`関数を使用します。以下に具体的な手順を示します。
 
@@ -170,7 +168,7 @@ http://127.0.0.1:5000
 これで、Shinyアプリケーションが正しく設定され、`ajax.html`が含まれるようになるはずです。
 
 ---
-# ajax.htmlは以下の内容です。lucas数の計算と実行時間の測定をapp.Rの中で行い、フロントと送受信するようにしてください
+# lucas数の計算と実行時間の測定をapp.Rの中で行い、フロントと送受信する
 
 RのShinyアプリケーションを作成し、`ajax.html`で入力された数値に基づいてLucas数の計算と実行時間の測定を行い、その結果をフロントエンドに返すための設定を行います。以下の手順に従ってください。
 
